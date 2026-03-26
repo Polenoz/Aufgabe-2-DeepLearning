@@ -61,8 +61,8 @@ The executed test cases are:
 If you still want to execute the tests in Colab, run the following commands in a Colab cell:
 
 ```python
-!git clone https://github.com/Polenoz/logistic-regression-aufgabe-2.git
-%cd logistic-regression-aufgabe-2
+!git clone https://github.com/Polenoz/Polenoz-logistic-regression-aufgabe-2.git
+%cd Polenoz-logistic-regression-aufgabe-2
 !pip install -r requirements.txt
 !python -m unittest discover -s tests -v
 ```

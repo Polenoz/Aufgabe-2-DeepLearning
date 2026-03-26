@@ -1,6 +1,6 @@
 # Logistic Regression Aufgabe 2
 
-[![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Polenoz/logistic-regression-aufgabe-2/main?labpath=run_tests.ipynb)
+[![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Polenoz/Polenoz-logistic-regression-aufgabe-2/main?labpath=run_tests.ipynb)
 
 This repository is prepared as a separate `Prüfungsaufgabe 2` submission for the logistic regression exercise from the course `Python für Data Science, Maschinelles Lernen & Visualization`. It extends the original example with automated testing, logging, and runtime checks.
 

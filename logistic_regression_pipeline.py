@@ -125,6 +125,9 @@ def load_prediction_test_data(test_data_path: Path | str) -> tuple[pd.DataFrame,
 def evaluate_predictions(y_true: pd.Series, predictions: np.ndarray) -> tuple[float, np.ndarray]:
     accuracy = accuracy_score(y_true, predictions)
     matrix = confusion_matrix(y_true, predictions)
+    logger = _get_logger("predict")
+    logger.info("Accuracy: %.4f", accuracy)
+    logger.info("Confusion Matrix:\n%s", matrix)
     return accuracy, matrix
 
 

@@ -58,7 +58,7 @@ The executed test cases are:
 
 ### Google Colab
 
-If you still want to execute the tests in Colab, run the following commands in a Colab cell:
+If you want to execute the tests in Colab, run the following commands in a Colab cell:
 
 ```python
 !git clone https://github.com/Polenoz/Polenoz-logistic-regression-aufgabe-2.git
